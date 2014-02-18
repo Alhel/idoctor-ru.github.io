@@ -145,3 +145,10 @@ body {
     margin-top: 20px;
   }
 }
+.indent {
+    text-indent: 1.5em
+}
+
+.featurette {
+    margin-top: 30 px;
+}
