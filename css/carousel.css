@@ -95,6 +95,7 @@ body {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
+ margin-bottom:  40 px;
 }
 
 
@@ -149,6 +150,4 @@ body {
     text-indent: 1.5em
 }
 
-.featurette {
-    margin-top: 30 px;
-}
+
