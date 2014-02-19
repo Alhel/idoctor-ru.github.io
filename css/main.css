@@ -1267,14 +1267,14 @@ label.valid{
 
 .gmap-wrapper{
   border:solid 2px #fff;
-  width:512px;
+  width:516px;
   height:354px;
   margin-top:;
 }
 
 .gmap{
   border:none;
-  width:350px;
+  width:512px;
   height:350px;
 }
 
@@ -1374,14 +1374,14 @@ label.valid{
      }
 .gmap-wrapper{
 
-  width:254px;
+  width:516px;
   height:354px;
 
 }
 
 .gmap{
 
-  width:250px;
+  width:512px;
   height:350px;
 }
     ul#grid li.mix{
