@@ -178,27 +178,11 @@ VEGAS Home Slider
     $.vegas('slideshow', {
         backgrounds:[
         
-        { src:'img/backgrounds/1.jpg', fade:1000 },
-		{ src:'img/backgrounds/shutter/1.jpg', fade:1000 },	
-		{ src:'img/backgrounds/shutter/2.jpg', fade:1000 },	
-			{ src:'img/backgrounds/shutter/3.jpg', fade:1000 },	
-			{ src:'img/backgrounds/shutter/4.jpg', fade:1000 },	
-			{ src:'img/backgrounds/shutter/5.jpg', fade:1000 },	
-			{ src:'img/backgrounds/shutter/6.jpg', fade:1000 },	
-			{ src:'img/backgrounds/shutter/7.jpg', fade:1000 },	
-			{ src:'img/backgrounds/shutter/8.jpg', fade:1000 },	
-			{ src:'img/backgrounds/shutter/9jpg', fade:1000 },	
-			{ src:'img/backgrounds/shutter/10.jpg', fade:1000 },	
-			{ src:'img/backgrounds/shutter/11.jpg', fade:1000 },	
-			{ src:'img/backgrounds/shutter/12.jpg', fade:1000 },	
-			{ src:'img/backgrounds/shutter/13.jpg', fade:1000 },	
-			{ src:'img/backgrounds/shutter/14.jpg', fade:1000 },	
-			{ src:'img/backgrounds/shutter/15.jpg', fade:1000 },	
-			{ src:'img/backgrounds/shutter/16.jpg', fade:1000 }	
+        { src:'img/backgrounds/c1.jpg', fade:1000 },
+		{ src:'img/backgrounds/c2.jpg', fade:1000 },	
+		{ src:'img/backgrounds/c3.jpg', fade:1000 }
 			
-      /*  { src:'img/backgrounds/2.jpg', fade:1000 },
-        { src:'img/backgrounds/3.jpg', fade:1000 }
-        */]
+     ]
       })('overlay', {
         src:'img/overlays/16.png'
       });
