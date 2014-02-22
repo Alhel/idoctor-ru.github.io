@@ -1,18 +1,183 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-	<meta charset="utf-8">
-    <title>Bootstrap 101 Шаблон</title>
-    <!-- Bootstrap --> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
-  </head>
-<body>
-<h1>Hello </h1>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>iDoctor</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="">
 
-<p>I'm hosted with GitHub Pages.</p>
-<!-- Latest compiled and minified JavaScript -->
-<script src="http://code.jquery.com/jquery-latest.js"></script> 
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-</body>
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Fonts from Font Awsome -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+         <!-- Magnific popup -->
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <!-- Custom styles for this template -->
+        <link rel="stylesheet" href="css/main.css">
+
+        <!-- Color options -->
+       <!-- <link rel="stylesheet" href="css/colors/green.css"> -->
+         <link rel="stylesheet" href="css/colors/blue.css">
+        <!-- <link rel="stylesheet" href="css/colors/yellow.css">-->
+        <!-- <link rel="stylesheet" href="css/colors/purple.css">-->
+        <!-- <link rel="stylesheet" href="css/colors/orange.css">-->
+        <!-- <link rel="stylesheet" href="css/colors/red.css">-->
+        
+        <!-- Feature detection -->
+        <script src="js/modernizr-2.6.2.min.js"></script>
+        <!-- Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="js/plugins/html5shiv.js"></script>
+          <script src="js/plugins/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+    <!-- welcome begins -->
+    <section id="page-welcome" class="page-welcome">
+      <div>
+          <ul class="slider-controls">
+              <li><a id="vegas-next" class="next" href="#"></a></li>
+              <li><a id="vegas-prev" class="prev" href="#"></a></li>
+          </ul>
+        </div>
+        <div class="container">
+            <div class="row">
+                  <!-- Text Slider -->
+                    <div class="flexslider">
+                      <ul class="home-slides">                        
+                        <li>We Are <span>Creative</span></li>
+                        <li>We Are <span>Innovative</span></li>
+                      </ul>
+                    </div>
+                     <p class="intro-text">The Best Telehealth Services</p>
+                      <!-- End Text Slides -->
+                <a href="#page-about" class="btn btn-default learn-more"><span data-hover="Learn More">Learn More</span></a>
+            </div>
+        </div>
+    </section><!-- welcome ends -->
+    <!-- Nav starts -->
+     <div class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">iDoctor</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav nav-effect" id="main-menu">
+            <li><a href="#page-welcome"><span data-hover="Home">Home</span></a></li>
+            <li><a href="#page-about"><span data-hover="About">About</span></a></li>
+          <!--  <li><a href="#page-services"><span data-hover="Services">Services</span></a></li>
+            <li><a href="#page-portfolio-controls"><span data-hover="Portfolio">Portfolio</span></a></li>
+            <li><a href="#page-team"><span data-hover="Team">Team</span></a></li>
+            <li><a href="#page-pricing"><span data-hover="Pricing">Pricing</span></a></li> -->
+            <li><a href="#page-contact"><span data-hover="Contact">Contact</span></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div><!-- Nav ends -->
+    <!-- about begins -->
+    <section id="page-about" class="page-about">
+      <div class="container">
+                <header class="section-header">
+                    <h2 class="section-title">About us</h2>
+                    <div class="spacer"></div>
+                    <p class="section-subtitle indent">iDoctor is one of its kind national resource and promoter of the use of advanced remote medical technologies. </p>							  
+						<p class="indent" >The healthcare services we offer are unique, yet very accessible. All you need, as a patient, is a PC and internet access! The iDoctor platform connects you to a certified primary care physician at our telemedical centre 24/7 365 days a year via secure video consultation. The physician will attend you, resolve your health problem or order necessary tests; or refer you to our own specialist for a further virtual or face-to-face visit at our clinic. We will constantly and immaculately  monitor your health conditions via the provided kit of remote devices in case you suffer from a chronic disease or are a post acute patient.</p> 
+						 <p class="indent">iDoctor's team strives for the best: gathering top healthcare providers together to deliver healthcare services to the highest standards of our patients and their most satisfaction. Top national public and private hospitals, independent laboratories and pharmacy chains are also very keen to get involved in our services.</p> 
+		 
+                </header>  		  
+     </div>
+       
+    </section><!-- about ends -->
+   
+
+     <!-- parallax connect feed begins -->
+            <section id="parallax-connect" class="parallax">
+                <div class="parallax-background2 parallax-background"></div><!-- parallax bg image -->
+                <div class="overlay"></div>
+                <div class="container">
+                  <div class="row">
+                      <div class="col-md-12">
+                        <div class="parallax-content">
+                            <header class="section-header">
+                                <h2 class="section-title"><span>Get Connected</span></h2>
+                                  <div class="spacer"></div>
+                                    <p class="section-subtitle">Follow our news. </p>
+                            </header>
+                           <div class="social-icons">
+                            <a href="http://twitter.com/idoctor_ru" class="btn btn-round btn-clear btn-twitter"><i class="fa fa-twitter"></i></a>
+                            <a href="http://www.facebook.com/idoctor.ru" class="btn btn-round btn-clear btn-facebook"><i class="fa fa-facebook"></i></a>   
+                         <!--   <a href="http://www.linkedin.com/" class="btn btn-round btn-clear btn-linkedin"><i class="fa fa-linkedin-square"></i></a>           -->
+                        </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+            </section><!-- parallax connect feed ends -->
+
+
+    <!-- contact begins -->
+     <section id="page-contact" class="page-contact">
+          <div class="container">
+              <header class="section-header">
+                  <h2 class="section-title"><span>Contact</span></h2>
+                    <div class="spacer"></div>
+                       <p class="section-subtitle">Stay in touch with us.</p>
+              </header>
+        <div class="row">
+          <div class="col-sm-5 contact-info">
+            <h3>Contact Info</h3>
+            <p><i class="fa fa-map-marker"></i>  Moscow, Russia </p>
+            <p><i class="fa fa-phone"></i> +7(916) 927-3636 </p>
+            <p><i class="fa fa-envelope-o"></i> mikhail.bakulin@instadoctor.ru</p>
+       
+          </div>
+          
+          <div class="col-sm-7">          
+                  <div class="gmap-wrapper">
+            <iframe data-address="Moscow, Russia" frameborder="0" allowfullscreen data-zoom="10" data-bubble="true"  class="gmap"></iframe>
+          </div>
+          </div>
+        </div><!-- End row -->
+
+        </div>
+    </section> <!-- contact ends -->
+
+
+        <script src="js/jquery-1.10.2.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.queryloader2.min.js"></script>
+        <script src="js/jquery.parallax-1.1.3.js"></script>
+        <script src="js/jquery.flexslider.js"></script>
+        <script src="js/jquery.scrollTo.js"></script>
+        <script src="js/jquery.nav.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/jquery.vegas.min.js"></script>
+        <script src="js/jquery.isotope.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/jquery.validate.js"></script>
+        <script src="js/jquery.countTo.js"></script>
+        <script src="js/waypoints.min.js"></script>
+        <script type="text/javascript"src="https://maps.googleapis.com/maps/api/js?key=&sensor=false"></script>
+        <script src="js/main.js"></script>
+
+
+    </body>
 </html>

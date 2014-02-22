@@ -888,7 +888,7 @@ a.btn-linkedin:visited{
 
 /* FlexSlider Necessary Styles
 *********************************/
-.flexslider {margin: 0 ;  padding-top:45%;}
+.flexslider {margin: 0 ;  padding-top:25%;}
 .flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;} /* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider .slides img {width: 100%; display: block;}
 .flex-pauseplay span {text-transform: capitalize;}
